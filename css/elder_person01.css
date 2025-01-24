@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header .user-type {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section .option label {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 150px;
+    text-align: right;
+}
+
+.section .option input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.option .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.schedule-btn-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.schedule-btn {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.schedule-btn:hover {
+    background-color: #0097a7;
+}
