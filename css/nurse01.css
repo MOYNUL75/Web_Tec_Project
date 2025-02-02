@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-section p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.details-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.details-section .detail {
+    flex: 1;
+    min-width: 45%;
+}
+
+.detail strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.schedule-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.schedule-button:hover {
+    background-color: #0097a7;
+}

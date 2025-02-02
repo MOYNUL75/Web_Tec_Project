@@ -1,0 +1,151 @@
+/* mystyle1.css */
+
+/* General Page Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+/* Form Container */
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset and Legend */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    padding: 0 10px;
+}
+
+/* Input Fields and Text Areas */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* Error Messages */
+p {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+/* Centering Buttons */
+.button-container {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center-align the buttons horizontally */
+    margin-top: 20px; /* Add spacing above the buttons */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block; /* Ensures buttons stay inline */
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; /* Adds spacing between buttons */
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+
+
+/* Table Layout */
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    padding: 8px;
+    vertical-align: top;
+}
+
+td:first-child {
+    width: 30%;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+        width: 95%;
+    }
+
+    table td:first-child {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    input[type="radio"] {
+        margin-left: 0;
+    }
+}

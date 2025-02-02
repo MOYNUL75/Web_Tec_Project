@@ -1,0 +1,122 @@
+font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .marquee {
+            background: #004A99;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #004A99;
+            padding: 10px;
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+        .menu {
+            background: #004A99;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sidebar {
+            width: 20%;
+            float: left;
+            background: #004A99;
+            color: white;
+            padding: 10px;
+            min-height: 400px;
+            border-radius: 0 0 0 8px;
+        }
+        .sidebar button {
+            width: 100%;
+            background: white;
+            color: #004A99;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px 0;
+            text-align: left;
+        }
+        .sidebar button:hover {
+            background: #ddd;
+        }
+        .content {
+            width: 75%;
+            float: right;
+            padding: 20px;
+            background: white;
+        }
+        .login-info {
+            background: #E8F5E9;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .footer {
+            clear: both;
+            background: #004A99;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 0 0 8px 8px;
+        }
+        button {
+            background: #004A99;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .marquee {
+    background: #004A99;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 35s linear infinite;
+    gap: 40px;
+}
+
+.marquee-content span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
